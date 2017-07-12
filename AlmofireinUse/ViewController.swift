@@ -19,9 +19,9 @@ class ViewController: UIViewController {
             print(response.data!)      // server data
             print(response.result)     // Result of response serialization
             
-            if let jsonResult = response.result.value
+            if let Result = response.result.value
             {
-                print("\(jsonResult)")
+                print("\(Result)")
             }
             
            })
